@@ -113,17 +113,7 @@
     <div id="app"></div>
 
     <script>
-        const emojis = [
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img1.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img2.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img3.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img4.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img5.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img6.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img7.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img8.png" class="card-img">'
-];
-
+        const emojis = ['🥖', '🥐', '🍩', '🥯', '🧁', '🍪', '🥪', '🍞'];
         
         let cards = [];
         let flipped = [];
@@ -368,13 +358,14 @@
                                              style="transform-style: preserve-3d;">
                                             
                                             <!-- Front (logo Breden Master) -->
-<!-- Front (logo Breden Master completo) -->
-<div class="card-face absolute w-full h-full rounded-3xl flex items-center justify-center shadow-2xl transition-shadow"
-     style="background: linear-gradient(135deg, #DC2851 0%, #C8395C 100%);">
-    <div class="w-full h-full flex items-center justify-center p-8 relative">
-        <div class="flex items-center gap-6">
-            <!-- Todo el SVG del logo -->
-                                                        
+                                            <div class="card-face absolute w-full h-full rounded-3xl flex items-center justify-center border-4 shadow-2xl border-white transition-shadow"
+                                                 style="background-color: #DC2626;">
+                                                <div class="w-full h-full flex flex-col items-center justify-center p-8">
+                                                    <div class="bg-white rounded-t-full w-40 h-32 flex items-center justify-center mb-3 relative">
+                                                        <div class="text-center">
+                                                            <div class="text-red-600 font-bold text-3xl leading-tight">Breden</div>
+                                                            <div class="text-red-600 font-bold text-2xl">Master.</div>
+                                                        </div>
                                                     </div>
                                                     <div class="text-white text-center mt-4">
                                                         <div class="font-bold text-4xl leading-tight">Felicidad</div>
@@ -421,8 +412,6 @@
     </script>
 </body>
 </html>
-
-
 
 
 
