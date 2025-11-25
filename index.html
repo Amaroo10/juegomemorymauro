@@ -113,16 +113,7 @@
     <div id="app"></div>
 
     <script>
-        const emojis = [
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img1.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img2.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img3.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img4.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img5.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img6.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img7.png" class="card-img">',
-  '<img src="https://raw.githubusercontent.com/Amaroo10/juegomemorymauro/main/images/img8.png" class="card-img">'
-];
+        const emojis = ['🥖', '🥐', '🍩', '🥯', '🧁', '🍪', '🥪', '🍞'];
         
         let cards = [];
         let flipped = [];
@@ -275,8 +266,8 @@
             const app = document.getElementById('app');
             
             app.innerHTML = `
-     <div class="min-h-screen flex flex-col items-center justify-center p-8 relative overflow-hidden"
-     style="background-image: url('images/fondo.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                <div class="min-h-screen flex flex-col items-center justify-center p-8 relative overflow-hidden"
+                     style="background: linear-gradient(180deg, #EC4899 0%, #EC4899 15%, #FFFFFF 15%, #FFFFFF 85%, #8B4513 85%, #8B4513 100%);">
                     
                     <!-- Marco rosa superior con goteo -->
                     <div class="absolute top-0 left-0 right-0 h-48 z-0" style="background: #EC4899">
@@ -420,9 +411,6 @@
         initializeGame();
     </script>
 </body>
-
 </html>
-
-
 
 
